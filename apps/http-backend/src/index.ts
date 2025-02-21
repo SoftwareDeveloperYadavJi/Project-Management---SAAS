@@ -1,8 +1,6 @@
 import express from "express";
 import userRouter from "./routes/user.routes";
 
-import { Request, Response } from "express";
-
 
 const app = express();
 app.use(express.json());
