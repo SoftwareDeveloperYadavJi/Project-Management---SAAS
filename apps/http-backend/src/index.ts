@@ -1,5 +1,11 @@
-import express from "express";
+import express, { Request } from "express";
 import userRouter from "./routes/user.routes";
+import dotenv from 'dotenv';
+
+
+
+dotenv.config();
+
 
 
 const app = express();
@@ -7,7 +13,15 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 
+
+
+
+
+
+
 app.use("/api/user", userRouter);
+
+
 
 
 app.listen(4000, () => {
