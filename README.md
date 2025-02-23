@@ -64,7 +64,7 @@ A real-time project management application built with Next.js, Express, WebSocke
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/project-management-tool.git
+git clone https://github.com/SoftwareDeveloperYadavJi/Project-Management---SAAS.git
 cd project-management-tool
 ```
 
